@@ -1,11 +1,12 @@
 import { Router } from "express";
+import { moneyRoute } from "../modules/Exchange/exchange.route";
 
 const router = Router();
 
 const moduleRoutes = [
     {
-        path: '/auth',
-        route: ,
+        path: '/money',
+        route: moneyRoute,
     }
 
 ]
